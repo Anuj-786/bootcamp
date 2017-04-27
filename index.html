@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootcamp</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script> -->
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="jQuery.js"></script>
+	<script type="text/javascript" src="materialize.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#" class="brand-logo"><img src="images/jaaga-logo.png"></a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#what-is-jaaga">About</a></li>
+					<li><a href="collapsible.html">Programme</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="#alumni">Alumni</a></li>
+					<li class="apply-list"><a href="#apply-collapse" class="apply">Apply</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<div class="container">
+		<div class="row">
+			<div class="text-background">
+				<div class="text-background1">
+					<div class="carousel slide" data-ride="carousel" data-interval="4000">
+						<div class="carousel-inner heading-div">
+							<div class="item active">
+								<h1>Become a Software Developer</h1>
+							</div>
+							<div class="item">
+								<h1>Learn to Build Software Products</h1>
+							</div>
+							<div class="item">
+								<h1>Learn to Build Mobile Apps</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div id="what-is-jaaga" class="what_jaaga">
+				<div class="container">
+					<div class="heading-container">
+						<h2>What is Jaaga Study?</h2>
+					</div>
+					<div class="row">
+						<div class="col-md-6 reason">
+							<h3>100+ Graduates</h3>
+							<p>Code Astra has produced 100+ graduates of finest quality</p>
+						</div>
+						<div class="col-md-6 reason">
+							<h3>Global Students</h3>
+							<p>Code Astra attracted individuals from 8 countries</p>
+						</div>
+						<div class="col-md-6 reason">
+							<h3>2+ jobs per student</h3>
+							<p>Not just a job. Our alumni get to choose a job</p>
+						</div>
+						<div class="col-md-6 reason">
+							<h3>INR500k+ Avg Annual Salary</h3>
+							<p>That is 60% more than industry average for freshers</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="alumni" class="three-box-container">
+			<div class="row">
+				<div class="col-md-4 col-sm-12 three-box three-box-one">
+					<div class="img">
+						<img src="images/jaaga-logo.png">
+					</div>
+					<div class="price">
+						<span>$1500</span>
+					</div>
+					<div class="course-list">
+						<ul>
+							<li>30 Days course</li>
+							<li>Monday to friday</li>
+							<li>In foofys office</li>
+							<li>With expert developers</li>
+							<li>Full stack web development with ruby on rails backend</li>
+							<li>Only 20 seats available Download Curriculum</li>
+						</ul>
+					</div>
+					<div class=" col-md-12 col-sm-12  pdf-dwnld">
+						<button>Download Curriculum</button>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12 three-box three-box-two">
+					<div class="img">
+						<img src="images/jaaga-logo.png">
+					</div>
+					<div class="price">
+						<span>$1500</span>
+					</div>
+					<div class="course-list">
+						<ul>
+							<li>30 Days course</li>
+							<li>Monday to friday</li>
+							<li>In foofys office</li>
+							<li>With expert developers</li>
+							<li>Full stack web development with ruby on rails backend</li>
+							<li>Only 20 seats available Download Curriculum</li>
+						</ul>
+					</div>
+					<div class=" col-md-12 col-sm-12 pdf-dwnld">
+						<button>Download Curriculum</button>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12 three-box three-box-three">
+					<div class="img">
+						<img src="images/jaaga-logo.png">
+					</div>
+					<div class="price">
+						<span>$1500</span>
+					</div>
+					<div class="course-list">
+						<ul>
+							<li>30 Days course</li>
+							<li>Monday to friday</li>
+							<li>In foofys office</li>
+							<li>With expert developers</li>
+							<li>Full stack web development with ruby on rails backend</li>
+							<li>Only 20 seats available Download Curriculum</li>
+						</ul>
+					</div>
+					<div class=" col-md-12 col-sm-12 pdf-dwnld">
+						<button>Download Curriculum</button>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col m6 col s6 push-m3 push-s3 apply-container">
+				<ul class="collapsible" data-collapsible="accordion">
+					<li>
+						<div id="apply-collapse" class="collapsible-header collapse-header"></i>Apply</div>
+						<div class="collapsible-body">
+
+							<input id="username" type="text" class="validate" value="Your Name">
+							<input id="email" type="email" class="validate" value="Email">
+							<input id="phone" type="text" class="validate" value= "Phone">
+							<select multiple>
+								<option value="0" >Select Fruit</option>
+								<option value="1">Mango</option>
+								<option value="2">Orange</option>
+								<option value="3">Apple</option>
+							</select>
+							<textarea id="textarea1" class="materialize-textarea">Query</textarea>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div id="myCarousel" class="carousel slide carousel-custom" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active common-item">
+						<div class="slider-data">
+							<p>Code Astra has really helped me kick start my career as a web developer. Mentors are very nice and experienced and have a profound knowledge on topic. To learn something, I believe that there's no better way than to learn the practical implementation of the same and Code Astra has delivered just that. They have helped me write right and beautiful code, not just during the course, but beyond.</p>
+
+
+						</div>
+						<div class="user">
+							<div class="user-image"><img src="images/anuj.jpeg"></div>
+							<div class="user-name"><span>Anuj Thakur</span></div>
+						</div>
+					</div>
+					<div class="item common-item">
+						<div class="slider-data">
+							<p>Code Astra has really helped me kick start my career as a web developer. Mentors are very nice and experienced and have a profound knowledge on topic. To learn something, I believe that there's no better way than to learn the practical implementation of the same and Code Astra has delivered just that. They have helped me write right and beautiful code, not just during the course, but beyond.</p>
+
+						</div>
+						<div class="user">
+							<div class="user-image"><img src="images/anuj.jpeg"></div>
+							<div class="user-name"><span>Anuj Thakur</span></div>
+						</div>
+					</div>
+
+					<div class="item">
+						<div class="slider-data common-item">
+							<p>Code Astra has really helped me kick start my career as a web developer. Mentors are very nice and experienced and have a profound knowledge on topic. To learn something, I believe that there's no better way than to learn the practical implementation of the same and Code Astra has delivered just that. They have helped me write right and beautiful code, not just during the course, but beyond.</p>
+
+						</div>
+						<div class="user">
+							<div class="user-image"><img src="images/anuj.jpeg"></div>
+							<div class="user-name"><span>Anuj Thakur</span></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Left and right controls -->
+				<a class="left carousel-control " href="#myCarousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+		
+	</div>
+
+
+</body>
+</html>
